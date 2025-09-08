@@ -1,0 +1,13 @@
+I love Python and Java.
+python is fun.
+PYTHON rocks!
+Learning Python is easy.
+Jython and IronPython are implementations.
+MicroPython runs on microcontrollers.
+This is about Pythonic code styles.
+A true Pythonista writes idiomatic code.
+CPython is the reference implementation.
+
+Hello world!
+Snake: Python is a species.
+PyThOn mixed-case demo.
