@@ -9,7 +9,7 @@ public class B1 {
 
         while (true) {
             str = input.nextLine();
-            if(!(str == null) && !(str.equals(" ")) && !str.trim().isEmpty()) {
+            if (!(str == null) && !(str.equals(" ")) && !str.trim().isEmpty()) {
                 break;
             }
         }

@@ -3,7 +3,8 @@ public class Book {
     private String author;
     private int year;
 
-    public Book() {    }
+    public Book() {
+    }
 
     public Book(String title, String author, int year) {
         this.title = title;
@@ -35,6 +36,9 @@ public class Book {
         this.year = year;
     }
 
+    /**
+     * @return a string representation of product including title, author, year.
+     */
     @Override
     public String toString() {
         return "Book{" + "title=" + title + ", author=" + author + ", year=" + year + '}';

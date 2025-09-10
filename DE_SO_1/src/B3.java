@@ -11,22 +11,26 @@ public class B3 {
         Long sum = 0L;
 
         System.out.println("Enter the elements ( type (stop) to finish: ");
-        while(true) {
+        while (true) {
             String check = input.nextLine();
-            if ( check.equals("stop") ) {
+            if (check.equals("stop")) {
                 break;
             }
             try {
                 Integer value = Integer.parseInt(check);
                 list.add(value);
                 sum += value;
-                if(max == null ||max < value){ max = value;}
-                if(min == null ||min > value){ min = value;}
+                if (max == null || max < value) {
+                    max = value;
+                }
+                if (min == null || min > value) {
+                    min = value;
+                }
             } catch (InputMismatchException e) {
                 System.out.println(e.getMessage());
             }
         }
-        double avg = (double) sum/ list.size();
+        double avg = (double) sum / list.size();
 
         System.out.println(min + " " + max + " " + avg);
 

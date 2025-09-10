@@ -8,15 +8,15 @@ public class B5 {
 
         System.out.println("Enter an integer: ");
 
-        while(true){
-            try{
+        while (true) {
+            try {
                 index = input.nextLine();
-                int value =  Integer.parseInt(index);
-                for(int i = 0; i < index.length(); i++){
+                int value = Integer.parseInt(index);
+                for (int i = 0; i < index.length(); i++) {
                     sum += (index.charAt(i) - '0');
                 }
                 break;
-            }catch(NumberFormatException e){
+            } catch (NumberFormatException e) {
                 System.out.println("Invalid input");
             }
         }

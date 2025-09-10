@@ -10,19 +10,19 @@ public class B3 {
 
         System.out.println("Please enter a list of integers: ");
 
-        while(true){
+        while (true) {
             token = input.nextLine();
-            if(token.toLowerCase().equals("stop")){
+            if (token.toLowerCase().equals("stop")) {
                 break;
             }
-            try{
+            try {
                 list.add(Integer.parseInt(token));
-            }catch(NumberFormatException e){
+            } catch (NumberFormatException e) {
                 System.out.println("Invalid input");
             }
         }
-        for(int a = 0; a < list.size(); a++){
-            if(list.get(a) % 2 == 0){
+        for (int a = 0; a < list.size(); a++) {
+            if (list.get(a) % 2 == 0) {
                 System.out.println(list.get(a));
             }
         }

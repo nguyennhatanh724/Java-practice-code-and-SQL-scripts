@@ -9,8 +9,10 @@ public class B5 {
         chars = input.nextLine();
         int count = 0;
 
-        for(int i = 0; i < chars.length(); i++){
-            if( ( (chars.charAt(i)<= 'z')&&(chars.charAt(i)>= 'a') || (chars.charAt(i)<= 'Z')&&(chars.charAt(i)>= 'A') ) ){ count++; }
+        for (int i = 0; i < chars.length(); i++) {
+            if (((chars.charAt(i) <= 'z') && (chars.charAt(i) >= 'a') || (chars.charAt(i) <= 'Z') && (chars.charAt(i) >= 'A'))) {
+                count++;
+            }
         }
 
         System.out.println("Number of characters in " + chars + " is " + count);

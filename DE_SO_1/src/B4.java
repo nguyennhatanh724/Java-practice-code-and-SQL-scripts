@@ -10,13 +10,13 @@ public class B4 {
 
         System.out.println("Please enter the name of the student you want to add, type 'stop' to finish: ");
         String token = null;
-        while(true){
+        while (true) {
             token = input.nextLine();
-            if((token.trim().toLowerCase().equals("stop"))) break;
+            if ((token.trim().toLowerCase().equals("stop"))) break;
             students.add(token);
         }
         Collections.sort(students);
-        for(String s : students){
+        for (String s : students) {
             System.out.println(s);
         }
 
